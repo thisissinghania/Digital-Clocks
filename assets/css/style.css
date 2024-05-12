@@ -1,0 +1,559 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+.login_area {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  padding: 30px 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+.all_cogs {
+  position: relative;
+  height: 480px;
+}
+.cog_inside {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 1000px;
+  padding: 2px;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-content: center;
+  -webkit-align-content: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.cog_inside span {
+  max-width: 80px;
+}
+.cog_inside h6 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  color: #000;
+}
+.first_cog {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.first_cog::after {
+  background: url(../images/first-cog.svg);
+  position: absolute;
+  top: -35px;
+  left: -35px;
+  right: -35px;
+  bottom: -35px;
+  z-index: -1;
+  background-size: cover;
+  content: "";
+  -webkit-animation: r-rev 6s linear infinite;
+  animation: r-rev 6s linear infinite;
+}
+@-webkit-keyframes r-rev {
+  from {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+}
+@keyframes r-rev {
+  from {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+}
+.second_cog {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  top: 224px;
+  left: 115px;
+}
+.second_cog::after {
+  background: url(../images/second-cog.svg);
+  position: absolute;
+  top: -35px;
+  left: -35px;
+  right: -35px;
+  bottom: -35px;
+  z-index: -1;
+  background-size: cover;
+  content: "";
+  -webkit-animation: l-rev 6s linear infinite;
+  animation: l-rev 6s linear infinite;
+}
+@-webkit-keyframes l-rev {
+  from {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes l-rev {
+  from {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}
+.third_cog {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  top: 0;
+  left: 310px;
+}
+.third_cog::after {
+  background: url(../images/third-cog.svg);
+  position: absolute;
+  top: -35px;
+  left: -35px;
+  right: -35px;
+  bottom: -35px;
+  z-index: -1;
+  background-size: cover;
+  content: "";
+  -webkit-animation: r-rev 6s linear infinite;
+  animation: r-rev 6s linear infinite;
+}
+.fourth_cog {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  top: 224px;
+  left: 437px;
+}
+.fourth_cog::after {
+  background: url(../images/fourth-cog.svg);
+  position: absolute;
+  top: -35px;
+  left: -35px;
+  right: -35px;
+  bottom: -35px;
+  z-index: -1;
+  background-size: cover;
+  content: "";
+  -webkit-animation: l-rev 6s linear infinite;
+  animation: l-rev 6s linear infinite;
+}
+.fifth_cog {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  top: 0;
+  left: 629px;
+}
+.fifth_cog::after {
+  background: url(../images/fifth-cog.svg);
+  position: absolute;
+  top: -35px;
+  left: -35px;
+  right: -35px;
+  bottom: -35px;
+  z-index: -1;
+  background-size: cover;
+  content: "";
+  -webkit-animation: r-rev 6s linear infinite;
+  animation: r-rev 6s linear infinite;
+}
+.sixth_cog {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  top: 224px;
+  left: 766px;
+}
+.sixth_cog::after {
+  background: url(../images/sixth-cog.svg);
+  position: absolute;
+  top: -35px;
+  left: -35px;
+  right: -35px;
+  bottom: -35px;
+  z-index: -1;
+  background-size: cover;
+  content: "";
+  -webkit-animation: l-rev 6s linear infinite;
+  animation: l-rev 6s linear infinite;
+}
+.tweleve_cog {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  top: 70px;
+  left: 1052px;
+}
+.tweleve_cog::after {
+  background: url(../images/india_cog.svg);
+  position: absolute;
+  top: -35px;
+  left: -35px;
+  right: -35px;
+  bottom: -35px;
+  z-index: -1;
+  background-size: cover;
+  content: "";
+  -webkit-animation: l-rev 6s linear infinite;
+  animation: l-rev 6s linear infinite;
+}
+.seventh_cog {
+  position: absolute;
+  top: 210px;
+  left: 323px;
+  max-width: 70px;
+  -webkit-animation: l-rev 6s linear infinite;
+  animation: l-rev 6s linear infinite;
+}
+.eigth_cog {
+  position: absolute;
+  top: 210px;
+  left: 649px;
+  max-width: 70px;
+  -webkit-animation: r-rev 6s linear infinite;
+  animation: r-rev 6s linear infinite;
+}
+.nineth_cog {
+  position: absolute;
+  top: 80px;
+  max-width: 70px;
+  left: 201px;
+  -webkit-animation: l-rev 6s linear infinite;
+  animation: l-rev 6s linear infinite;
+}
+.tenth_cog {
+  display: none;
+  position: absolute;
+  top: 265px;
+  max-width: 70px;
+  left: 75px;
+  -webkit-animation: r-rev 6s linear infinite;
+  animation: r-rev 6s linear infinite;
+}
+.eleventh_cog {
+  position: absolute;
+  top: 80px;
+  max-width: 70px;
+  left: 515px;
+  -webkit-animation: r-rev 6s linear infinite;
+  animation: r-rev 6s linear infinite;
+}
+.thirteen_cog {
+  position: absolute;
+  top: 80px;
+  left: 839px;
+  max-width: 70px;
+  -webkit-animation: r-rev 6s linear infinite;
+  animation: r-rev 6s linear infinite;
+}
+
+/* clock css start */
+.clock {
+  border-radius: 50%;
+  background: #fff url("../images/ios_clock.svg") no-repeat center;
+  background-size: 90%;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+.minutes-container,
+.hours-container,
+.seconds-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.country_name {
+  position: absolute;
+  top: 52px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 99;
+  text-transform: uppercase;
+  opacity: 1;
+  font-size: 14px;
+}
+.hours {
+  background: #000;
+  height: 20%;
+  left: 48.75%;
+  position: absolute;
+  top: 30%;
+  transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;
+  width: 3px;
+  border-radius: 100px;
+}
+.minutes {
+  background: #000;
+  height: 40%;
+  left: 49%;
+  position: absolute;
+  top: 10%;
+  transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;
+  width: 3px;
+  border-radius: 100px;
+}
+.seconds {
+  background: red;
+  height: 45%;
+  left: 49.5%;
+  position: absolute;
+  top: 14%;
+  transform-origin: 50% 80%;
+  -webkit-transform-origin: 50% 80%;
+  width: 2px;
+  z-index: 8;
+  border-radius: 100px;
+}
+.clock::after {
+  background: red;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 7px;
+  height: 7px;
+  z-index: 10;
+}
+.clock::before {
+  background: #000;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 15px;
+  height: 15px;
+  z-index: 0;
+}
+.hours-container {
+  animation: rotate 43200s infinite linear;
+  -webkit-animation: rotate 43200s infinite linear;
+}
+.minutes-container {
+  transition: transform 0.3s cubic-bezier(0.4, 2.08, 0.55, 0.44);
+  -webkit-transition: transform 0.3s cubic-bezier(0.4, 2.08, 0.55, 0.44);
+}
+.seconds-container {
+  transition: transform 0.2s cubic-bezier(0.4, 2.08, 0.55, 0.44);
+  -webkit-transition: transform 0.2s cubic-bezier(0.4, 2.08, 0.55, 0.44);
+}
+
+.country_name.PM::after {
+  content: " PM";
+  color: red;
+}
+.country_name.AM::after {
+  content: " AM";
+  color: red;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotateZ(360deg);
+    -webkit-transform: rotateZ(360deg);
+  }
+}
+/* clock css end */
+
+.logo {
+  max-width: 320px;
+  margin: 10px auto 20px;
+  display: block;
+}
+
+@media all and (min-width: 1600px) {
+  .first_cog {
+    top: 70px;
+    left: -70px;
+  }
+  .third_cog {
+    top: 70px;
+    left: 299px;
+  }
+  .fourth_cog {
+    top: 224px;
+    left: 490px;
+  }
+  .fifth_cog {
+    top: 70px;
+    left: 677px;
+  }
+  .sixth_cog {
+    top: 224px;
+    left: 865px;
+  }
+  .nineth_cog {
+    max-width: 126px;
+    top: 50px;
+    left: 133px;
+  }
+  .eleventh_cog {
+    max-width: 90%;
+    top: 40px;
+    left: 500px;
+  }
+  .tenth_cog {
+    top: 276px;
+    max-width: 100%;
+    left: -64px;
+  }
+  .seventh_cog {
+    top: 286px;
+    left: 315px;
+    max-width: 100%;
+  }
+  .thirteen_cog {
+    top: 40px;
+    left: 878px;
+    max-width: 90%;
+  }
+  .eigth_cog {
+    top: 286px;
+    left: 689px;
+    max-width: 100%;
+    width: 140px;
+  }
+}
+
+@media all and (max-width: 1599px) {
+  .login_area {
+    margin-top: 40px;
+  }
+  .tweleve_cog {
+    top: 0px;
+    left: 957px;
+  }
+  .all_cogs {
+    position: relative;
+    height: 450px;
+  }
+}
+
+@media all and (max-width: 1199px) {
+  .all_cogs {
+    left: -70px;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  .login_area {
+    margin-top: 20px;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .first_cog,
+  .second_cog,
+  .third_cog,
+  .fourth_cog,
+  .fifth_cog,
+  .sixth_cog,
+  .seventh_cog,
+  .eigth_cog,
+  .nineth_cog,
+  .tenth_cog {
+    position: relative;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    margin: 35px;
+  }
+  .tweleve_cog {
+    top: 0;
+    left: 0px;
+    display: inline-block;
+    margin: 35px;
+    position: relative;
+  }
+  .all_cogs {
+    margin-top: 40px;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    align-content: center;
+    -webkit-align-content: center;
+    -webkit-flex-wrap: wrap;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    transform: initial;
+    height: 660px;
+    left: 0;
+  }
+  .seventh_cog,
+  .eigth_cog,
+  .nineth_cog,
+  .tenth_cog,
+  .eleventh_cog {
+    display: none;
+  }
+  .login_area {
+    margin-top: 0px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .all_cogs {
+    height: 940px;
+    margin-top: 0;
+    padding-bottom: 50px;
+  }
+}
+
+@media all and (max-width: 489px) {
+  .all_cogs {
+    height: 1660px;
+  }
+}
